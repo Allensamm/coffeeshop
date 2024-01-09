@@ -1,0 +1,43 @@
+.section--bg{
+    background: #dbbca1;
+    
+}
+
+.section--content{
+    margin: 0 14%;
+}
+
+.content h2{
+color: #220404;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.content button{
+    background: #2f1f14;
+     padding: 10px;   
+     color: white;
+     margin-top: 20px;
+}
+
+.content--{
+    color: rgba(27, 11, 11, 0.85);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+header{
+    margin: 0 200px;
+}
+
+@media screen and (max-width:820px) {
+    .section--content img{
+        display: none;
+    }
+}

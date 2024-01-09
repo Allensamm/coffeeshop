@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Galada-Regular';
+    src: url('../../public/fonts/Pompiere-Regular.ttf');
+  }
+
+@font-face {
+    font-family: 'Pompiere-Regular';
+    src: url('../../public/fonts/Pompiere-Regular.ttf');
+}
+
+
+
+.background{
+    background-image: url('../../public/images/bannerimg.png');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #2f1f14;
+}
+
+
+.coffee--makes {
+    font-family: 'pompiere-Regular';
+}
+
+.indulge--{
+    font-family: 'Galada-Regular';
+    margin-top: -40px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+   .background{
+    background-image: none;
+   }
+   header h1{
+    margin-top: -50px !important;
+    font-size: 6rem !important;
+    line-height: 7rem;
+    margin-left: -90px !important;
+    padding: 20px;
+   }
+   header h3{
+    display: none;
+   }
+}
+
+@media screen and (max-width:1175px) {
+    .background{
+     
+    }
+    header h1{
+        /* margin-top: 50px;
+        font-size: 6rem !important;
+        line-height: 10rem;
+        font-size: 10rem !important; */
+    }
+    header h3{
+     display: none;
+    }
+ }
+ @media screen and (max-width:815px) {
+    .background{
+     
+    }
+    header h1{
+     margin-top: -50px;
+     font-size: 6rem !important;
+     line-height: 7rem;
+     margin-left: -120px; 
+    }
+    header h3{
+     display: none;
+    }
+ }

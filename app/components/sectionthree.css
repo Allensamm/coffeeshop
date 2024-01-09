@@ -1,0 +1,29 @@
+.card--{
+    background: #655546;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 14%;
+}
+.card a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card--one,.card--two,.card--three{
+    background: #dbbca1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        margin-left: 100px;
+    }    
+}
